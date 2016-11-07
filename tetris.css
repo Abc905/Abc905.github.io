@@ -1,0 +1,50 @@
+body {
+  display: block;
+  margin: 0;
+  background-color: #202020;
+}
+
+div.pitPane {
+  display: flex;
+}
+
+div.pit {
+  display: block;
+  margin: auto;
+  background-color: black;
+}
+
+div.row {
+  display: flex;
+}
+
+div.blockw { /* а то border раст€гивает block больше 5 vh */
+  display: flex;
+  width: 5vh;
+  height: 5vh;
+}
+
+div.block {
+  display: flex;
+  width: 5vh;
+  height: 5vh;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+div.dot {
+  width: 0.5vh;
+  height: 0.5vh;
+  /*background-color: #303030;*/
+  border: 1px solid #404040;
+  margin: auto;
+}
+
+div.block.habitated {
+  background-color: gray;
+}
+
+div.usage {
+  color: Gray;
+  text-align: center;
+}
