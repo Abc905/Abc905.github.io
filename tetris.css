@@ -45,6 +45,25 @@ div.block.habitated {
 }
 
 div.usage {
-  color: Gray;
+  color: gray;
   text-align: center;
 }
+
+A:link {
+  text-decoration: none;
+  color: gray;
+} 
+A:visited {
+  text-decoration: none;
+  color: gray;
+} 
+A:active {
+  text-decoration: none;
+  color: gray;
+} 
+A:hover {
+  text-decoration: none;
+  color: gray;
+} 
+
+
